@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/plugins/geom_from_attribute" >
+        <file>icon.png</file>
+		<file>mka.png</file>
+		<file>info.png</file>
+    </qresource>
+</RCC>

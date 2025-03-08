@@ -1,0 +1,50 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Geom From Attribute
+qgisMinimumVersion=3.0
+description=This plugin allows users to create geometry using attributes from table. 
+version=1.0
+author=Murat Çalışkan
+email=caliskan.murat.20@gmail.com
+
+about=This plugin allows users to create geometry using attributes from tables. It creates GPKG, SHP, KML, GML or GEOJSON file from QGIS compatible table based layers. There are two options to create geometry. First one is using columns, that contain X(longitude) and Y(latitude) values of Points. This method can be used only for Points. Other option is using single column, that contains Well Known Text(WKT) values of geometry. This method is used for Points, MultiPoints, Lines, MultiLines, Polygons and MultiPolygons.
+
+If input table contains WKT values for multiple geometry types (such as Polygon, Point, Line etc.) each type is saved seperately.
+
+
+tracker=https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin/issues
+repository=https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin/tree/main/geom_from_attribute_plugin
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, geometry, attribute, csv, parquet
+
+homepage=https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
