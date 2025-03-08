@@ -14,7 +14,7 @@ about=This plugin allows users to create geometry using attributes from tables. 
 
 
 tracker=https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin/issues
-repository=https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin/tree/main/geom_from_attribute_plugin
+repository=https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin/tree/main/geom_from_attribute
 # End of mandatory metadata
 
 # Recommended items:
