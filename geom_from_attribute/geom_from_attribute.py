@@ -418,7 +418,7 @@ class GeomFromAttribute:
                 self.dlg.setWindowIcon(QIcon(':/plugins/geom_from_attribute/icon.png'))
                 
             
-            self.dlg.lbl_info.setText("""<html><head/><body><a href="https://github.com/caliskanmurat/qgis_sentinel2_image_downloader_plugin"><img width="25" height="25" src=":/plugins/geom_from_attribute/info.png"/></a></body></html>""")
+            self.dlg.lbl_info.setText("""<html><head/><body><a href="https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin"><img width="25" height="25" src=":/plugins/geom_from_attribute/info.png"/></a></body></html>""")
             
             self.crs = None
             
