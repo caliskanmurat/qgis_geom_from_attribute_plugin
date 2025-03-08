@@ -24,7 +24,7 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python, geometry, attribute, csv, parquet
+tags=python, geometry, attribute, csv, parquet, excel
 
 homepage=https://github.com/caliskanmurat/qgis_geom_from_attribute_plugin
 category=Plugins
