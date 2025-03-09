@@ -33,7 +33,7 @@ import os.path
 
 from qgis.gui import QgsProjectionSelectionDialog
 
-from qgis.core import QgsProject, QgsVectorLayer, QgsFeature, QgsGeometry, QgsFields, QgsVectorFileWriter, QgsWkbTypes
+from qgis.core import Qgis, QgsProject, QgsVectorLayer, QgsFeature, QgsGeometry, QgsFields, QgsVectorFileWriter, QgsWkbTypes
 from shapely.geometry import Point
 from shapely.wkt import loads
 from collections import defaultdict
@@ -401,6 +401,7 @@ class GeomFromAttribute:
         
         self.dlg.btn_run.setText("RUN")
         self.dlg.processEvents() 
+        self.iface.messageBar().pushMessage("Success", "Features created successfully!" , level=Qgis.Success, duration=5)
         
     def run(self):
         if self.first_start == True:
