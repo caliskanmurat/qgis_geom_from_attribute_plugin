@@ -11,9 +11,9 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
   <tr>
     <td><img width="500" src="./images/img.png"></td>
     <td>
-      1-) Select the layer<br/>
-      2-) Select the method (WKT or Point Coordinates)<br/>
-      3-) 
+      1-) Download the example data, <a href="./sample_data"/>Download<a>
+      2-) Select the layer<br/>
+      3-) Select the method (WKT or Point Coordinates)<br/>
     </td>
   </tr>
 </table>
