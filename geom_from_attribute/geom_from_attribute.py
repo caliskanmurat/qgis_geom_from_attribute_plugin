@@ -392,9 +392,11 @@ class GeomFromAttribute:
             for feat in feature_list:
                 attrs = feat.attributes()
                 wkt = feat.attribute(wkt_col)
-            
-                geom  = loads(wkt)
-                geom_type = geom.type
+                try:
+                    geom  = loads(wkt)
+                    geom_type = geom.type
+                except:
+                    continue
                 for gt in geom_types:
                     if geom_type.lower() == gt.lower():
                         data[geom_type].append([*attrs, wkt])
