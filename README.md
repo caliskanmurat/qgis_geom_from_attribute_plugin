@@ -7,7 +7,7 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
 <br/>
 <br/>
 
-<table>
+<table style="border-collapse: collapse;border: none;">
   <tr>
     <td><img width="500" src="./images/img.png"></td>
     <td>
