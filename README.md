@@ -11,9 +11,11 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
   <tr>
     <td><img width="500" src="./images/img.png"></td>
     <td>
-      1-) Download the example data, <a href="./sample_data"/>Download<a>
+      1-) Download the example data - <a href="./sample_data"/>Download<a><br/>
       2-) Select the layer<br/>
       3-) Select the method (WKT or Point Coordinates)<br/>
+      4-) Select SRS <br/>
+      5-) Select output path or leave blank to create temporary data<br/>
     </td>
   </tr>
 </table>
