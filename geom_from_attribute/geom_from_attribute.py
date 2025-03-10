@@ -331,6 +331,12 @@ class GeomFromAttribute:
             
             if self.dlg.chc_add_to_map.isChecked():
                 self.iface.addVectorLayer(out_path, '', 'ogr')
+    
+    def run_execute(self):
+        try:
+            self.execute()
+        except Exception as err:
+            self.iface.messageBar().pushMessage("ERROR", f"{str(err)}" , level=Qgis.Critical, duration=10)
         
     def execute(self):
         self.dlg.btn_run.setText("RUNNING...")
@@ -435,7 +441,7 @@ class GeomFromAttribute:
             self.dlg.rb_pnt.toggled.connect(self.geomFormat)
             self.dlg.rb_wkt.toggled.connect(self.geomFormat)
             self.dlg.tb_outfile.clicked.connect(self.select_output)
-            self.dlg.btn_run.clicked.connect(self.execute)
+            self.dlg.btn_run.clicked.connect(self.run_execute)
             self.dlg.le_outfile.textChanged.connect(self.enableAddLayerButton)
             
             
