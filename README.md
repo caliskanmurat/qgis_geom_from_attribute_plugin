@@ -10,7 +10,11 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
 <table>
   <tr>
     <td><img width="500" src="./images/img.png"></td>
-    <td></td>
+    <td>
+      1-) Select the layer
+      2-) Select the method (WKT or Point Coordinates)
+      3-) 
+    </td>
   </tr>
 </table>
 
