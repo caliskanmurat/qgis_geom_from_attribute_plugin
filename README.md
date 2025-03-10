@@ -8,9 +8,9 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
 <br/>
 
 <table style="border-collapse: collapse;border: none;">
-  <tr>
-    <td><img width="500" src="./images/img.png"></td>
-    <td>
+  <tr style="border: none;">
+    <td style="border: none;"><img width="500" src="./images/img.png"></td>
+    <td style="border: none;">
       1-) Download the example data - <a href="./sample_data"/>Download<a><br/>
       2-) Select the layer<br/>
       3-) Select the method (WKT or Point Coordinates)<br/>
