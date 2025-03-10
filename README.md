@@ -6,6 +6,11 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
 
 <br/>
 <br/>
-<p align="left">
-  <img width="500" src="./images/img.png">
-</p>
+
+<table>
+  <tr>
+    <td><img width="500" src="./images/img.png"></td>
+    <td></td>
+  </tr>
+</table>
+
