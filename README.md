@@ -11,8 +11,8 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
   <tr>
     <td><img width="500" src="./images/img.png"></td>
     <td>
-      1-) Select the layer
-      2-) Select the method (WKT or Point Coordinates)
+      1-) Select the layer<br/>
+      2-) Select the method (WKT or Point Coordinates)<br/>
       3-) 
     </td>
   </tr>
