@@ -231,7 +231,7 @@ class GeomFromAttribute:
         selected_layer = QgsProject.instance().mapLayersByName(layerName)[0]
         
         field_names_string = [field.name() for field in selected_layer.fields() if field.typeName().lower() in ("string", "varchar", "text")]
-        field_names_numeric = [field.name() for field in selected_layer.fields() if (field.typeName().lower() in ("real", "double", "float")) or (field.typeName().lower().startswith("int"))]
+        field_names_numeric = [field.name() for field in selected_layer.fields() if (field.typeName().lower() in ("real", "double", "float", "decimal")) or (field.typeName().lower().startswith("int"))]
         
         if (len(field_names_numeric) > 0) and (self.dlg.rb_pnt.isChecked()):
             self.chc_fields = True
