@@ -7,10 +7,10 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
 <br/>
 <br/>
 
-<table style="border-collapse: collapse;border: none;">
-  <tr style="border: none;">
-    <td style="border: none;"><img width="500" src="./images/img.png"></td>
-    <td style="border: none;">
+<table border="0">
+  <tr>
+    <td><img width="500" src="./images/img.png"></td>
+    <td>
       1-) Download the example data - <a href="./sample_data"/>Download<a><br/>
       2-) Select the layer<br/>
       3-) Select the method (WKT or Point Coordinates)<br/>
