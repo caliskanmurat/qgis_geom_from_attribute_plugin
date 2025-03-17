@@ -12,7 +12,7 @@ If input table contains WKT values for multiple geometry types (such as Polygon,
     <td ><img width="500" src="./images/img.png"></td>
     <td>
       1-) Download the example data - <a href="./sample_data"/>Download<a><br/>
-      2-) Open data by dragging to QGIS - <a href="./sample_data"/>Download<a><br/>
+      2-) Open data by dragging to QGIS<br/>
       3-) Select the layer<br/>
       4-) Select the method (WKT or Point Coordinates)<br/>
       5-) Select SRS <br/>
